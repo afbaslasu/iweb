@@ -1,6 +1,7 @@
 // src/pages/Home.jsx
 import React from "react";
 import { CenteredLayout } from "../components/layouts/CenteredLayout";
+import TestPage from "../components/TestPage";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,11 @@ export default function HomePage() {
         alt="Placeholder hero"
         className="w-full h-60 object-cover rounded-lg"
       />
+
+      <TestPage/>
     </CenteredLayout>
   );
 }
+
+
+
